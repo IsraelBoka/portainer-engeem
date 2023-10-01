@@ -35,7 +35,7 @@ export function Head({
   const { isOpen } = useSidebarState();
   const anchorProps = useSrefActive(
     to,
-    'bg-blue-8 be:bg-gray-8 th-dark:bg-gray-true-8',
+    'bg-[#15a8a8] be:bg-gray-8 th-dark:bg-gray-true-8',
     params,
     options,
     ignorePaths
@@ -49,7 +49,7 @@ export function Head({
         anchorProps.className,
         'text-inherit no-underline hover:text-inherit hover:no-underline focus:text-inherit focus:no-underline',
         'flex h-8 w-full flex-1 items-center space-x-4 rounded-md text-sm',
-        'transition-colors duration-200 hover:bg-blue-9 be:hover:bg-gray-9 th-dark:hover:bg-gray-true-9',
+        'transition-colors duration-200 hover:bg-[#1AC2C2]  ',
         {
           'w-full justify-start px-3': isOpen,
           'w-8 justify-center': !isOpen,
@@ -66,7 +66,7 @@ export function Head({
 
   return (
     <Tippy
-      className="!rounded-md bg-blue-9 !px-3 !py-2 !opacity-100 be:bg-gray-9 th-dark:bg-gray-true-9"
+      className="!rounded-md bg-[#1AC2C2] hover:bg-[#1ac2c2b7] !px-3 !py-2 !opacity-100 "
       content={label}
       delay={[0, 0]}
       duration={[0, 0]}

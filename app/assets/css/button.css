@@ -25,8 +25,8 @@ fieldset[disabled] .btn {
 }
 
 .btn.btn-primary {
-  @apply border-blue-8 bg-blue-8 text-white;
-  @apply hover:border-blue-9 hover:bg-blue-9 hover:text-white;
+  @apply bg-[#1AC2C2]  text-white;
+  @apply hover:border-blue-9 hover:bg-[#1ac2c2d8]  hover:text-white;
   @apply th-dark:hover:border-blue-7 th-dark:hover:bg-blue-7;
 }
 
@@ -39,15 +39,15 @@ fieldset[disabled] .btn {
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
-  @apply bg-blue-8;
+  @apply bg-[#1AC2C2];
 }
 
 /* Button Secondary */
 .btn.btn-secondary {
   @apply border border-solid;
 
-  @apply border-blue-8 bg-blue-2 text-blue-9;
-  @apply hover:bg-blue-3;
+  @apply bg-[#1AC2C2]  text-blue-9;
+  @apply hover:bg-[#1ac2c2d8];
 
   @apply th-dark:border-blue-7 th-dark:bg-gray-10 th-dark:text-blue-3;
   @apply th-dark:hover:bg-blue-11;

@@ -2,12 +2,12 @@ import { ChevronsLeft, ChevronsRight } from 'lucide-react';
 import clsx from 'clsx';
 
 import { isBE } from '@/react/portainer/feature-flags/feature-flags.service';
-import smallLogo from '@/assets/ico/logomark.svg';
+import smallLogo from '@/assets/images/logo_small_alt.png';
 
 import { Link } from '@@/Link';
 
-import fullLogoBE from './portainer_logo-BE.svg';
-import fullLogoCE from './portainer_logo-CE.svg';
+import fullLogoBE from './portainer_logo-BE.png';
+import fullLogoCE from './portainer_logo-CE.png';
 import { useSidebarState } from './useSidebarState';
 import styles from './Header.module.css';
 
@@ -65,7 +65,7 @@ export function Header({ logo: customLogo }: Props) {
           'flex h-6 w-6 items-center justify-center rounded border-0',
           'transition-all duration-200',
           'text-sm text-gray-4 hover:text-white be:text-gray-5 be:hover:text-white',
-          'bg-blue-11 be:bg-gray-10',
+            'bg-[#1AC2C2] hover:bg-[#1ac2c2b7]',
           'th-dark:bg-gray-warm-11',
           'absolute',
           { '-right-[10px]': !isOpen, 'right-6': isOpen }

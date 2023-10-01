@@ -59,20 +59,20 @@
   --grey-59: #e6e6e6;
   --grey-61: rgb(231, 231, 231);
 
-  --blue-1: #219;
-  --blue-2: #337ab7;
-  --blue-3: #738bc0;
-  --blue-4: #23527c;
-  --blue-5: #30426a;
-  --blue-6: #577bc9;
-  --blue-7: #6b9aff;
-  --blue-8: #90ccff;
-  --blue-9: #3ea6ff;
-  --blue-10: #61b6ff;
-  --blue-11: #3ea5ff;
-  --blue-12: #41a6ff;
-  --blue-14: #357ebd;
-  --blue-15: #36bffa;
+  --blue-1: #1AC2C2;
+  --blue-2: #1AC2C2;
+  --blue-3: #1AC2C2;
+  --blue-4: #1AC2C2;
+  --blue-5: #1AC2C2;
+  --blue-6: #1AC2C2;
+  --blue-7: #1AC2C2;
+  --blue-8: #1AC2C2;
+  --blue-9: #1AC2C2;
+  --blue-10: #232638;
+  --blue-11: #1AC2C2;
+  --blue-12: #1AC2C2;
+  --blue-14: #1391AB;
+  --blue-15: #1391AB;
 
   --red-1: #a94442;
   --red-2: #c7254e;
@@ -101,7 +101,7 @@
   --bg-main-color: var(--white-color);
   --bg-body-color: var(--grey-9);
   --bg-checkbox-border-color: var(--grey-49);
-  --bg-sidebar-color: var(--ui-blue-10);
+  --bg-sidebar-color: #232638;
   --bg-sidebar-nav-color: var(--ui-blue-11);
   --bg-widget-color: var(--white-color);
   --bg-widget-header-color: var(--grey-10);
@@ -110,7 +110,7 @@
   --bg-hover-table-color: var(--grey-14);
   --bg-switch-box-color: var(--ui-gray-5);
   --bg-input-group-addon-color: var(--ui-gray-3);
-  --bg-btn-default-color: var(--ui-blue-10);
+  --bg-btn-default-color: #232638;
   --bg-blocklist-hover-color: var(--ui-blue-2);
   --bg-table-color: var(--white-color);
   --bg-md-checkbox-color: var(--grey-12);
@@ -169,8 +169,8 @@
   --text-widget-header-color: var(--ui-gray-11);
   --text-form-control-color: var(--grey-25);
   --text-muted-color: var(--grey-26);
-  --text-link-color: var(--blue-2);
-  --text-link-hover-color: var(--blue-4);
+  --text-link-color: #1AC2C2;
+  --text-link-hover-color: #035c5c ;
   --text-input-group-addon-color: var(--grey-25);
   --text-blocklist-hover-color: var(--grey-37);
   --text-dashboard-item-color: var(--grey-32);
@@ -208,12 +208,12 @@
   --border-color: var(--grey-42);
   --border-widget-color: var(--grey-43);
   --border-sidebar-color: var(--ui-blue-9);
-  --border-form-control-color: var(--grey-44);
+  --border-form-control-color: #1AC2C2;
   --border-table-color: var(--grey-19);
   --border-table-top-color: var(--grey-19);
   --border-datatable-top-color: var(--grey-10);
-  --border-input-group-addon-color: var(--grey-44);
-  --border-btn-default-color: var(--grey-44);
+  --border-input-group-addon-color: #1AC2C2;
+  --border-btn-default-color: #1AC2C2;
   --border-md-checkbox-color: var(--grey-19);
   --border-modal-header-color: var(--grey-45);
   --border-navtabs-color: var(--ui-white);
@@ -238,7 +238,7 @@
 
   --shadow-box-color: 0 3px 10px -2px var(--grey-50);
   --shadow-boxselector-color: 0 3px 10px -2px var(--grey-50);
-  --blue-color: var(--blue-13);
+  --blue-color: #1AC2C2;
   --button-close-color: var(--black-color);
   --button-opacity: 0.2;
   --button-opacity-hover: 0.5;
@@ -251,7 +251,7 @@
   --sort-icon: var(--ui-gray-9);
   --border-checkbox: var(--ui-gray-5);
   --bg-checkbox: var(--white-color);
-  --border-searchbar: var(--grey-44);
+  --border-searchbar: #1AC2C2;
   --bg-button-group: var(--white-color);
   --border-button-group: var(--ui-gray-5);
   --text-button-group: var(--ui-gray-9);
@@ -342,11 +342,11 @@
   --text-widget-header-color: var(--white-color);
   --text-form-control-color: var(--white-color);
   --text-muted-color: var(--grey-8);
-  --text-link-color: var(--blue-9);
-  --text-link-hover-color: var(--blue-2);
+  --text-link-color: #;
+  --text-link-hover-color: #1AC2C2;
   --text-input-group-addon-color: var(--grey-8);
   --text-blocklist-hover-color: var(--white-color);
-  --text-dashboard-item-color: var(--blue-2);
+  --text-dashboard-item-color: #1AC2C2;
   --text-danger-color: var(--red-4);
   --text-code-color: var(--white-color);
   --text-navtabs-color: var(--grey-8);
@@ -410,7 +410,7 @@
   --border-nav-container-color: var(--ui-gray-neutral-8);
   --border-stepper-color: var(--ui-gray-warm-9);
 
-  --blue-color: var(--blue-2);
+  --blue-color: #1AC2C2;
   --button-close-color: var(--white-color);
   --button-opacity: 0.6;
   --button-opacity-hover: 0.3;
@@ -480,7 +480,7 @@
   --bg-daterangepicker-end-date: var(--grey-3);
   --bg-daterangepicker-hover: var(--grey-3);
   --bg-daterangepicker-in-range: var(--grey-2);
-  --bg-daterangepicker-active: var(--blue-14);
+  --bg-daterangepicker-active: #1AC2C2;
   --bg-tooltip-color: var(--black-color);
   --bg-table-selected-color: var(--grey-3);
   --bg-pre-color: var(--grey-2);
@@ -509,16 +509,16 @@
   --text-main-color: var(--white-color);
   --text-body-color: var(--white-color);
   --text-widget-header-color: var(--white-color);
-  --text-link-color: var(--blue-9);
-  --text-link-hover-color: var(--blue-9);
+  --text-link-color: #1AC2C2;
+  --text-link-hover-color: #1AC2C2;
   --text-danger-color: var(--red-7);
   --text-code-color: var(--red-7);
   --text-form-control-color: var(--white-color);
-  --text-blocklist-hover-color: var(--blue-11);
-  --text-dashboard-item-color: var(--blue-12);
+  --text-blocklist-hover-color: #1AC2C2;
+  --text-dashboard-item-color: #1AC2C2;
   --text-muted-color: var(--white-color);
   --text-tooltip-color: var(--white-color);
-  --text-blocklist-item-selected-color: var(--blue-9);
+  --text-blocklist-item-selected-color: #;
   --text-input-group-addon-color: var(--white-color);
   --text-dropdown-menu-color: var(--white-color);
   --text-log-viewer-color: var(--white-color);
@@ -551,7 +551,7 @@
   --border-table-color: var(--grey-55);
   --border-table-top-color: var(--grey-55);
   --border-datatable-top-color: var(--grey-55);
-  --border-sidebar-high-contrast: 1px solid var(--blue-9);
+  --border-sidebar-high-contrast: 1px solid #;
   --border-code-high-contrast: 1px solid var(--white-color);
   --border-panel-color: var(--white-color);
   --border-input-group-addon-color: var(--grey-54);

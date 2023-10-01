@@ -43,7 +43,7 @@ export function EnvironmentSidebar() {
         <Content environment={environment} onClear={clearEnvironment} />
       ) : (
         <SidebarSectionTitle>
-          <div className="flex items-center gap-1">
+          <div className="flex items-center gap-1 ">
             <span>Environment:</span>
             <Icon icon={Slash} className="text-xl !text-gray-6" />
             <span className="text-sm text-gray-6">None selected</span>

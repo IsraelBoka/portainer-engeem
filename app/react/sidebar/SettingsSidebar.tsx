@@ -146,8 +146,8 @@ export function SettingsSidebar({ isAdmin, isTeamLeader }: Props) {
             <a
               href={
                 process.env.PORTAINER_EDITION === 'CE'
-                  ? 'https://www.portainer.io/community_help'
-                  : 'https://documentation.portainer.io/r/business-support'
+                  ? 'https://www.engeem.com/about-us'
+                  : 'https://www.engeem.com/about-us'
               }
               target="_blank"
               rel="noreferrer"
